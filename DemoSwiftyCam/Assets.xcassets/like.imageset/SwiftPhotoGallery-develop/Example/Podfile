@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SwiftPhotoGallery_Example' do
+  pod "SwiftPhotoGallery", :path => "../"
+end
+
+target 'SwiftPhotoGallery_Tests' do
+  pod "SwiftPhotoGallery", :path => "../"
+  pod 'Nimble', '~> 5.0.0'
+  pod "SwiftPhotoGallery"
+
+end
+
